@@ -1,0 +1,92 @@
+.footer{
+    height:320px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 100px ;
+}
+
+.footer > .footer-column{
+    display: grid;
+    grid-gap: 20px;
+    width: 300px;
+    grid-template-columns: 1fr;
+}
+
+.footer > .footer-column > .footer-image {
+    display:flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.footer > .footer-column > .footer-image img {
+    width: 130px;
+    height: 100%;
+}
+
+.footer > .footer-column > .footer-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+    margin: 0px 12px 0px 25px;
+}
+
+.footer > .footer-column > .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column > .footer-menu > .link { 
+    font-size: 0.9em;
+    margin-top: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.footer-column > .footer-menu > .link a { 
+   font-family: "Unumtu Condesed" sans-serif;
+   color: ivory;
+   text-decoration: none;
+   transition:0.5s;
+}
+.footer-column > .footer-menu > .link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+}
+
+.footer-social > .instagram{ 
+    font-size: 1.5em;
+}
+
+.footer-social > .instagram i {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-social > .instagram i:hover{
+    color: #cea135;
+}
+
+.footer-cosial  > .twitter{
+    font-size: 1.5em;
+}
+
+.footer-cosial  > .twitter i{
+    color:#cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-cosial  > .twitter i:hover{
+    color: #cea135;
+}
